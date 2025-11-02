@@ -13,7 +13,9 @@ dependencies = [
     "numpy>=2.0.0",
     "pandas>=2.1.1",
     "pyarrow>=21.0.0",
-    "fastparquet>=2024.11.0"
+    "fastparquet>=2024.11.0",
+    "scikit-learn>=1.7.2",
+    "watermark>=2.5.0",
 ]
 
 [project.urls]
