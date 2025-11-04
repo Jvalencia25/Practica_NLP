@@ -16,6 +16,9 @@ dependencies = [
     "fastparquet>=2024.11.0",
     "scikit-learn>=1.7.2",
     "watermark>=2.5.0",
+    "nltk>=3.9.2",
+    "spacy>=3.8.7",
+    "es-core-news-sm",
 ]
 
 [project.urls]
@@ -40,6 +43,9 @@ default-groups = [
     "dev",
 #
 ]
+
+[tool.uv.sources]
+es-core-news-sm = { url = "https://github.com/explosion/spacy-models/releases/download/es_core_news_sm-3.8.0/es_core_news_sm-3.8.0-py3-none-any.whl" }
 
 [build-system]
 requires = ["hatchling"]
